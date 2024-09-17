@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var car_1 = require("./car");
+var c1 = new car_1.Car("Clio", "Renault", "White", 2010);
+var c2 = new car_1.Car("Ka", "Ford", "Aubergine", 2010);
+c2.start();
+c1.accelerate(100);
+c2.accelerate(200);
+c2.decelerate(300);
+c1.decelerate(50);
+c1.stop();
+c2.stop();
